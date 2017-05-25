@@ -1,0 +1,143 @@
+html{
+  margin: none;
+  padding: none;
+  color: #fff;
+  background-color: #000;
+  height: 100%
+}
+body{
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: inherit;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+.container{
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  background-color: inherit;
+  justify-content: center;
+}
+.list{
+  flex-flow: column;
+  background-color: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.items{
+  font-size: 25px;
+  color: gold;
+  background-color: black;
+  border-left: 2px solid white;
+  padding-left: 2px;
+  margin: 5px 0px 5px 0px;
+}
+.topic{
+  padding-top: 50px;
+}
+.items:hover{
+  background-color: gold;
+  color: black;
+  font-size: 35px;
+  transition: .5s;
+}
+.search{
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 410px;
+
+}
+.info{
+  padding: 20px;
+  /*border-left: 2px solid #bbb;*/
+  background-color: gold;
+  color: black;
+  box-shadow: 10px 10px 5px #000;
+}
+.btx{
+  font-size: 30px;
+  float: right;
+  color: #bbb;
+}
+.btx:hover{
+  color: #eee;
+  cursor: pointer;
+}
+.random{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.wikiRand{
+  background-color: #000;
+  font-size: 30px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button{
+  font-size: 30px;
+  border: 0;
+  text-decoration: none;
+  padding: 2px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: inherit;
+}
+a:link{
+  color: inherit;
+}
+a:visited{
+  color: inherit;
+}
+a:hover{
+  color: inherit;
+  text-shadow: 2px 2px 2px #fff;
+}
+input{
+  font-size: 30px;
+  border: 0;
+  border-bottom: solid 2px white;
+  outline: none;
+  padding: 2px;
+  height: 40px;
+  margin: 2px;
+  color: white;
+  background-color: inherit;
+  flex-grow: 8;
+}
+
+input[type="text"]:focus, input[type="text"].focus {
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+  border-bottom: solid 2px white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+.btnz {
+  font-size: 50px;
+  padding-top: 10px;
+  font-size: 30px;
+  align-self: flex-start;
+  color: #fff;
+}
