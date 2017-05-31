@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Rubik');
+
 html{
   margin: none;
   padding: none;
@@ -28,6 +30,7 @@ body{
   background-color: inherit;
   color: inherit;
   cursor: pointer;
+  font-family: 'Rubik', sans-serif;
 }
 .items{
   font-size: 25px;
@@ -38,7 +41,13 @@ body{
   margin: 5px 0px 5px 0px;
 }
 .topic{
+  color: #fff;
   padding-top: 50px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+}
+.topicDecor{
+  background-color: #000;
 }
 .items:hover{
   background-color: gold;
@@ -47,9 +56,10 @@ body{
   transition: .5s;
 }
 .search{
+
   background-color: #000;
   color: #fff;
-  padding: 20px;
+  padding: 80px 20px 20px 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,6 +73,9 @@ body{
   color: black;
   box-shadow: 10px 10px 5px #000;
 }
+.infoData{
+  font-family: 'Libre Baskerville', serif;
+}
 .btx{
   font-size: 30px;
   float: right;
@@ -71,6 +84,13 @@ body{
 .btx:hover{
   color: #eee;
   cursor: pointer;
+}
+.morefo{
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+
 }
 .random{
   background-color: #000;
@@ -104,7 +124,7 @@ a:visited{
 }
 a:hover{
   color: inherit;
-  text-shadow: 2px 2px 2px #fff;
+  cursor: pointer;
 }
 input{
   font-size: 30px;
