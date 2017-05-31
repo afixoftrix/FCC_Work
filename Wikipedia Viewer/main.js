@@ -32,7 +32,7 @@ $("#input").on('keyup', function autoComplete(e){
                 var info = data[2][index];
                 var link = data[3][index];
                 //<div class="info"></div> info into .search
-                $('.container').append('<div class="info"><div class="btx"><i class="fa fa-times-circle-o" aria-hidden="true"></i><br></div><h3 class="topic"><span class="topicDecor">' + item + '</span></h3><br><div></div><p class="infoData">' + info + '</p><br><a href='+ link +' class="itemlink"><h4 class="morefo">Wiki</h4></a></div>');
+                $('.container').append('<div class="info"><div class="btx"><i class="fa fa-times-circle-o" aria-hidden="true"></i><br></div><h3 class="topic"><span class="topicDecor">' + item + '</span></h3><br><div></div><p class="infoData">' + info + '</p><br><a href='+ link +' class="itemlink"><h4 class="morefo">View Wikipedia Entry</h4></a></div>');
                 $('.btx').on('click', function closeInfoBar() { $('div.info').detach();});
               });
           }
@@ -48,7 +48,7 @@ $("#input").on('keyup', function autoComplete(e){
       var info = outer[2][0];
       var link = outer[3][0];
       //<div class="info"></div> info into .search
-      $('.container').append('<div class="info"><div class="btx"><i class="fa fa-times-circle-o" aria-hidden="true"></i><br></div><h3 class="topic"><span class="topicDecor">' + item + '</span></h3><br><div></div><p class="infoData">' + info + '</p><br><a href='+ link +' class="itemlink"><h4 class="morefo">Wiki</h4></a></div>');
+      $('.container').append('<div class="info"><div class="btx"><i class="fa fa-times-circle-o" aria-hidden="true"></i><br></div><h3 class="topic"><span class="topicDecor">' + item + '</span></h3><br><div></div><p class="infoData">' + info + '</p><br><a href='+ link +' class="itemlink"><h4 class="morefo">View Wikipedia Entry</h4></a></div>');
       $('.btx').on('click', function closeInfoBar() { $('div.info').detach();});
 
 
@@ -66,7 +66,7 @@ $("#input").on('keyup', function autoComplete(e){
     var info = outer[2][0];
     var link = outer[3][0];
     //<div class="info"></div> info into .search
-    $('.container').append('<div class="info"><div class="btx"><i class="fa fa-times-circle-o" aria-hidden="true"></i><br></div><h3 class="topic"><span class="topicDecor">' + item + '</span></h3><br><div></div><p class="infoData">' + info + '</p><br><a href='+ link +' class="itemlink"><h4 class="morefo">Wiki</h4></a></div>');
+    $('.container').append('<div class="info"><div class="btx"><i class="fa fa-times-circle-o" aria-hidden="true"></i><br></div><h3 class="topic"><span class="topicDecor">' + item + '</span></h3><br><div></div><p class="infoData">' + info + '</p><br><a href='+ link +' class="itemlink"><h4 class="morefo">View Wikipedia Entry</h4></a></div>');
     $('.btx').on('click', function closeInfoBar() { $('div.info').detach();});
 
     });
