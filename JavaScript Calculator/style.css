@@ -1,0 +1,14 @@
+body{
+  margin: none;
+}
+.app{
+  width: 50%;
+  margin: auto;
+  height: 738px;
+  width: 642px;
+  background-color: #5AFFA2;
+}
+.view{
+  height: 158px;
+  background-color: #BAF6FF;
+}
