@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Calculator</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" charset="utf-8"></script>
-  </head>
-  <body>
-    <div class="app">
-      <div class="view">
 
-      </div>
-      <div class="numbers">
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="main.js" charset="utf-8"></script>
+</head>
 
-      </div>
-      <div class="operators">
+<body>
+  <div class="app">
+    <div class="view" id="view">
+      <div class="mainScreen">
 
       </div>
     </div>
-  </body>
+
+    <div class="key-cont">
+
+      <!--Sci-Section-->
+      <div class="sci-sec">
+        <div class="sci-row"><div class="key"></div><div class="key">^</div><div class="key">(</div><div class="key">)</div><div class="key"></div><div class="key">^</div></div>
+        <div class="sci-row"><div class="key"></div><div class="key">^</div><div class="key">(</div><div class="key">)</div><div class="key"></div><div class="key">^</div></div>
+      </div>
+
+      <div class="num-n-ops">
+
+        <!--Number Keys Section-->
+        <div class="numbers">
+          <div class="num-row"><div class="key"></div><div class="key">^</div><div class="key">(</div><div class="key">)</div></div>
+          <div class="num-row"><div class="key"></div><div class="key">9</div><div class="key">8</div><div class="key">7</div></div>
+          <div class="num-row"><div class="key"></div><div class="key">6</div><div class="key">5</div><div class="key">4</div></div>
+          <div class="num-row"><div class="key"></div><div class="key">3</div><div class="key">2</div><div class="key">1</div></div>
+          <div class="num-row"><div class="key"></div><div class="key">(-)</div><div class="key">0</div><div class="key">.</div></div>
+        </div>
+        <!--Number Key end-->
+
+        <!--Operator Keys-->
+        <div class="operators">
+          <div class="op-rt">
+            <div class="key">MC</div>
+            <div class="key">+</div>
+            <div class="key">-</div>
+            <div class="key" id="enter">=</div>
+          </div>
+          <div class="op-lt">
+            <div class="key">MR</div>
+            <div class="key">/</div>
+            <div class="key">X</div>
+            <div class="key"></div>
+            <div class="key"></div>
+          </div>
+        </div>
+        <!-- operation ends -->
+
+      </div>
+      <!-- Bottom Half keys that contain both numbers and operators -->
+
+    </div>
+
+
+  </div>
+
+</body>
+
 </html>
